@@ -1,0 +1,42 @@
+.order-item{
+    width: 50%;
+    margin: 10px 0;
+}
+.order-item-inner{
+    font-size: 12px;
+    padding: 10px;
+    border: 1px dashed #0fc0c8;
+    margin: 0 10px;
+    height: 100%;
+}
+.order-item span{
+    display: inline-block;
+    font-size: 14px;
+}
+.order-item span:first-child{
+    width: 80%;
+}
+.order-item span:last-child{
+    width: 20%;
+    text-align: right;
+}
+.dish-in-order{
+    padding: 0 0 3px;
+    font-size: 0;
+}
+.order-bottom{
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 200px 0 0;
+    border-top: 1px solid #6fbbc8;
+    position: relative;
+}
+.order-item p{
+    margin: 0;
+}
+.order-item button{
+    margin-top: 7px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}

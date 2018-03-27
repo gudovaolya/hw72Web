@@ -1,0 +1,23 @@
+.main-nav li{
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-nav a{
+    color: #000;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color: #6fbbc8;
+}
+.main-nav a.active{
+    color: #2aacc8;
+    cursor: default;
+}
+.main-nav li:last-child{
+    margin-left: 20px;
+    border-left: 2px solid #bdc3c7;
+}
